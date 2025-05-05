@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JR Window Cleaning</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!-- FontAwesome for social icons -->
+</head>
+<body class="bg-white text-gray-800 font-sans">
+
+  <!-- Hero Section -->
+  <header class="bg-orange-600 text-white py-16 text-center">
+    <h1 class="text-4xl font-bold">JR Window Cleaning</h1>
+    <p class="mt-4 text-lg">Professional, Reliable, and Streak-Free Service</p>
+    <a href="#contact" class="mt-6 inline-block bg-white text-blue-600 px-6 py-2 rounded-full font-semibold hover:bg-gray-100 transition">Contact Us</a>
+  </header>
+
+  <!-- Services Section -->
+  <section class="py-12 px-6 md:px-20 bg-gray-100">
+    <h2 class="text-2xl font-bold mb-6 text-center">Our Services</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white p-6 rounded shadow">
+        <h3 class="font-semibold text-xl mb-2">Residential Cleaning</h3>
+        <p>Crystal-clear windows for your home, inside and out.</p>
+      </div>
+      <div class="bg-white p-6 rounded shadow">
+        <h3 class="font-semibold text-xl mb-2">Commercial Cleaning</h3>
+        <p>Professional appearance for storefronts, offices, and buildings.</p>
+      </div>
+      <div class="bg-white p-6 rounded shadow">
+        <h3 class="font-semibold text-xl mb-2">Gutter & Solar Panel Cleaning</h3>
+        <p>Keep your gutters and panels working efficiently.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="py-12 px-6 md:px-20">
+    <h2 class="text-2xl font-bold mb-4 text-center">Why Choose JR?</h2>
+    <p class="max-w-3xl mx-auto text-center">
+      With over 20 years of experience, JR Window Cleaning is proud to be a small family-owned business with a passion for providing high quality window cleaning services. Over the years, we have moved from tradtional to the most modern techniques and tools so we can offer the best results to our customers.
+    </p>
+  </section>
+
+<!-- Process Section -->
+<section class="py-12 px-6 md:px-20">
+    <h2 class="text-2xl font-bold mb-4 text-center">What to expect?</h2>
+    <p class="max-w-3xl mx-auto text-center">
+      We use the latest techniques and equipment to ensure that your windows are cleaned to perfection. Our process involves inspecting your windows, removing any debris or dirt, and cleaning them with pure water ensuring they stay cleaner for longer between cleans. Using chemicals on your windows has a magnetic effect toward dirt.
+    </p>
+  </section>
+
+<!-- The Team -->
+<section class="py-12 px-6 md:px-20">
+    <h2 class="text-2xl font-bold mb-4 text-center">Who are you hiring?</h2>
+    <p class="max-w-3xl mx-auto text-center">
+      When you hire JR Window Cleaning, the owner of the company comes to every job. As we are all one family our quality of work is tied to our business name, we are happy to spend more time and effort to make sure the clients we work for are satisfied with the finished result. We are fully insured, so you can trust us to get the job right.
+    </p>
+  </section>
+
+
+  <!-- Testimonials -->
+  <section class="py-12 px-6 md:px-20 bg-blue-50">
+    <h2 class="text-2xl font-bold mb-8 text-center">What Our Clients Say</h2>
+    <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+      <div class="bg-white p-6 rounded shadow">
+        <p class="italic">"Just started using JR Window Cleaning, but it's obvious that they've been to clean and I like that they let me know what day they'll be cleaning...Friendly & Professional."</p>
+        <p class="mt-4 font-semibold text-right">– Sam W., Homeowner</p>
+      </div>
+      <div class="bg-white p-6 rounded shadow">
+        <p class="italic">"I needed a good window cleaning service for my mother, and one I could trust as I live 130 miles away. JR Window Cleaning didn't let me down. They were polite and professional and best of all mum liked them and their work."</p>
+        <p class="mt-4 font-semibold text-right">– Sharon E., Daughter of Client</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-12 px-6 md:px-20 bg-gray-100">
+    <h2 class="text-2xl font-bold mb-6 text-center">Get a Free Quote</h2>
+    <form class="max-w-xl mx-auto bg-white p-6 rounded shadow space-y-4">
+      <input class="w-full border p-2 rounded" type="text" placeholder="Your Name" required />
+      <input class="w-full border p-2 rounded" type="email" placeholder="Your Email" required />
+      <input class="w-full border p-2 rounded" type="text" placeholder="Your Address" />
+      <textarea class="w-full border p-2 rounded" placeholder="Message or Service Needed" rows="4"></textarea>
+      <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700" type="submit">
+        Submit
+      </button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-600 text-white text-center py-6">
+    <div class="mb-2">
+      <a href="https://www.facebook.com/JROxfordshire" target="_blank" class="mx-2 hover:text-gray-200">
+        <i class="fab fa-facebook fa-lg"></i>
+      </a>
+      <a href="https://www.instagram.com/jr_window_cleaning" target="_blank" class="mx-2 hover:text-gray-200">
+        <i class="fab fa-instagram fa-lg"></i>
+      </a>
+    </div>
+    <p>© 2025 JR Window Cleaning · All rights reserved</p>
+  </footer>
+
+</body>
+</html>
